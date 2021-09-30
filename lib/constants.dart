@@ -1,4 +1,4 @@
-const String appName = "XYZ Hotel";
+const String appName = "ABC Hotel";
 const String slogan = "Best in Quality, Least in Price";
 const String restuarantImage = "assets/restuarantImage.jpeg";
 const String login = "  LOGIN    ";
@@ -14,15 +14,15 @@ const String search = "Search Foods";
 const String category = "Category";
 
 // Images
-const  filterIcon = "assets/icons/filter.png";
-const  fastFoodIcon = "assets/icons/fast-food.png";
-const  fruitIcon = "assets/icons/fruit.png";
-const  pizzaIcon = "assets/icons/pizza.png";
-const  restaurantIcon = "assets/icons/restaurant.png";
-const  restaurantsIcon = "assets/icons/restaurant-1.png";
-const  tacoIcon = "assets/icons/taco.png";
-const  pizzaImg = "assets/pizzaImg.jpg";
-const  pizzaImage = "assets/pizzaImage.jpg";
+const filterIcon = "assets/icons/filter.png";
+const fastFoodIcon = "assets/icons/fast-food.png";
+const fruitIcon = "assets/icons/fruit.png";
+const pizzaIcon = "assets/icons/pizza.png";
+const restaurantIcon = "assets/icons/restaurant.png";
+const restaurantsIcon = "assets/icons/restaurant-1.png";
+const tacoIcon = "assets/icons/taco.png";
+const pizzaImg = "assets/pizzaImg.jpg";
+const pizzaImage = "assets/pizzaImage.jpg";
 const popularFood1 = "assets/images/popular_foods/ic_popular_food_1.png";
 const creditCard = "assets/images/menus/ic_credit_card.png";
 const popularFood4 = "assets/images/menus/ic_popular_food_4.png";
