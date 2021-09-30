@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:sample/drawerMenu.dart';
+import 'package:sample/View/drawerMenu.dart';
 
-import 'constants.dart';
+import '../constants.dart';
 import 'detailScreen.dart';
 
 

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sample/FoodOrderPage.dart';
-import 'constants.dart';
+import 'package:sample/View/FoodOrderPage.dart';
+import '../constants.dart';
 
 
 

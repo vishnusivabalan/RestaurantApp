@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:sample/orderScreen.dart';
 import 'package:sample/sampleWebService.dart';
 
-import 'HomeScreen.dart';
-import 'LoginScreen.dart';
+import 'View/HomeScreen.dart';
+import 'View/LoginScreen.dart';
 import 'constants.dart';
-import 'detailScreen.dart';
+import 'View/detailScreen.dart';
 import 'LocationScreen.dart';
 void main() {
   runApp(InitialScreen());
