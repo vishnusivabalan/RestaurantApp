@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:sample/View/FoodOrderPage.dart';
 import '../constants.dart';
 
-
-
 class DetailScreen extends StatelessWidget {
   const DetailScreen({Key? key}) : super(key: key);
 

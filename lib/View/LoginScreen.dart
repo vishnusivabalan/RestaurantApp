@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:sample/View/HomeScreen.dart';
+import 'package:sample/View/signupscreen.dart';
 import 'package:sample/constants.dart';
 import '../Model/loginModel.dart';
 import '../Service/service.dart';
@@ -159,7 +160,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(dontHaveAcc),
-                    FlatButton(onPressed: () {},
+                    FlatButton(onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SignUp()),
+                      );
+                    },
                         child: Text(createAccount, style: TextStyle(color: Colors.blueAccent),)),
                   ],
                 )
