@@ -66,7 +66,7 @@ class _FoodOrderPageState extends State<FoodOrderPage> {
                 SizedBox(
                   height: 10,
                 ),
-                CartItem(
+                CartItem(     
                     productName: "Meat vegetable",
                     productPrice: "\$65.08",
                     productImage: pizzaImage,
@@ -340,7 +340,7 @@ class CartItem extends StatelessWidget {
           ),
           child: Container(
             alignment: Alignment.center,
-           // width: 300,
+            // width: 300,
             padding: EdgeInsets.only(left: 5, right: 5, top: 10, bottom: 10),
             child: Row(
               mainAxisSize: MainAxisSize.max,
@@ -350,10 +350,10 @@ class CartItem extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                         child: Image.asset(
-                          pizzaImage,
-                          width: 110,
-                          height: 100,
-                        )),
+                      pizzaImage,
+                      width: 110,
+                      height: 100,
+                    )),
                   ),
                 ),
                 Column(
@@ -436,28 +436,28 @@ class CartIconWithBadge extends StatelessWidget {
             onPressed: () {}),
         counter != 0
             ? Positioned(
-          right: 11,
-          top: 11,
-          child: Container(
-            padding: EdgeInsets.all(2),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(6),
-            ),
-            constraints: BoxConstraints(
-              minWidth: 14,
-              minHeight: 14,
-            ),
-            child: Text(
-              '$counter',
-              style: TextStyle(
-                color: Colors.red,
-                fontSize: 8,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-        )
+                right: 11,
+                top: 11,
+                child: Container(
+                  padding: EdgeInsets.all(2),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                  constraints: BoxConstraints(
+                    minWidth: 14,
+                    minHeight: 14,
+                  ),
+                  child: Text(
+                    '$counter',
+                    style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 8,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              )
             : Container()
       ],
     );
@@ -487,7 +487,7 @@ class AddToCartMenu extends StatelessWidget {
               width: 40.0,
               height: 35.0,
               decoration: BoxDecoration(
-              //  color: Color(0xFFfd2c2c),
+                //  color: Color(0xFFfd2c2c),
                 border: Border.all(color: Color(0xFFfd2c2c), width: 2.0),
                 borderRadius: BorderRadius.circular(5.0),
               ),
